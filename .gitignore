@@ -41,6 +41,11 @@ Thumbs.db
 .mypy_cache/
 .ruff_cache/
 
+# 环境变量与密钥（务必保留，防止 API Key 泄露）
+.env
+.env.*
+!.env.example
+
 # RAG / 数据目录（按需保留）
 data/
 chroma_db/

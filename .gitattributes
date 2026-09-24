@@ -1,0 +1,18 @@
+# 统一换行与二进制文件处理
+* text=auto
+
+# 二进制文件不做换行转换
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.xlsx binary
+*.docx binary
+*.zip binary
+
+# 脚本类保留原有换行
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf

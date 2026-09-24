@@ -3,6 +3,7 @@
 # 前提：同目录下有 .env 文件，内容为 DEEPSEEK_API_KEY=sk-你的key
 
 import os
+
 from dotenv import load_dotenv
 from openai import OpenAI
 
