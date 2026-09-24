@@ -63,6 +63,9 @@ copy .env.example .env
 # 然后编辑 .env，填入你的真实 DEEPSEEK_API_KEY
 ```
 
+> **关于 `.env` 的位置**：`load_dotenv()` 会从脚本所在目录逐级向上查找，
+> 因此放在**项目根目录**或 **`hello-llm/` 目录**下都能被正确读取（两处都已在忽略规则中）。
+
 ### 方式二：pip + venv
 
 ```powershell
